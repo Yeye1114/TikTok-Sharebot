@@ -13,7 +13,7 @@ import threading
 
 print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter(f"[NoelP X] Welcome to the (open-source) client to interact with a lil project that has been worked on"), 1))
 print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter(f"As of right now there's a ratelimit of 10.000 shares/day\n\n"), 1))
-videoid = Write.Input(Center.XCenter("Enter your Video/VideoID > "), Colors.red_to_white, interval=0.0100)
+videoid = Write.Input(Center.XCenter("https://vt.tiktok.com/ZSdD3L52v/ > "), Colors.red_to_white, interval=0.0100)
 try:
     int(videoid)
 except:
